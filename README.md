@@ -10,7 +10,7 @@ Install dependencies `mix deps.get`
 
 Run opensearch `docker run -p 9200:9200 -e "discovery.type=single-node" -e "xpack.security.enabled=false" elasticsearch:8.18.0`
 
-Setup indices `run mix lib/create_indices.exs`
+Setup indices `mix run lib/create_indices.exs`
 
 ## Play with various alias settings
 
