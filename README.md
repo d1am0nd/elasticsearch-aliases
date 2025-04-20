@@ -1,5 +1,7 @@
 # Recreates funky Elasticsearch alias-update behaviour
 
+Blog post: https://kordes.dev/posts/updating-elasticsearch-aliases-is-sometimes-atomic
+
 ## Setup
 
 Install elixir
